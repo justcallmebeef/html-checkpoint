@@ -1,4 +1,4 @@
-git <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,15 +8,21 @@ git <!DOCTYPE html>
 </head>
 <body>
     <form>
+        Email: 
         <input type="text" name="email" value="" placeholder="Put your email here...">
+        Password: 
         <input type="text" name="password" value="" placeholder="Put your password here...">
+        GitHub Username:
         <input type="Github" name="username" value="" placeholder="Put your GitHub Username here...">
-        <input type="radio" name="Enterprise" value="enterprise">Enterprise
-        <input type="radio" name="Pro" value="pro">Pro
-        <input type="radio" name="Free" value="free">Free
-        <input type="checkbox" name="remember me" value="remember me">Remember Me
+        <input type="radio" name="enterprise" value="enterprise" id="enterprise">
+            <label for="enterprise">Enterprise</label>
+        <input type="radio" name="pro" value="pro" id="pro">
+            <label for="pro">Pro</label>
+        <input type="radio" name="free" value="free" id="free">
+            <label for="free">Free</label>
+        <input type="checkbox" name="remember" value="remember" id="remember">
+            <label for="remember">Remember Me</label>
         <button type="submit">Submit</button>
     </form>
-    
 </body>
 </html>
